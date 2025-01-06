@@ -2,7 +2,8 @@
 
 void GAI::remove(Node* node) noexcept
 {
-    if (node) {
+    if (node) 
+    {
         remove(node->left);
         remove(node->right);
         delete node;
